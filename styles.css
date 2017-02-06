@@ -1,0 +1,63 @@
+#title {
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 4.8rem;
+	font-weight: 400;
+	color: white;
+	margin-top: .6em;
+	margin-bottom: .5em;
+}
+
+body {
+	background-color: #738494;
+}
+
+.row1 {
+	text-align: center;
+	margin-top: 0.2rem;
+}
+
+.r1 {
+	width: 25rem;
+	height: auto;
+	padding-left: 1.75em;
+	padding-right: 1.75em;
+}
+
+.row2 {
+	text-align: center;
+	margin-top: 2.8rem;
+}
+
+.r2 {
+	width: 25rem;
+	height: auto;
+	padding-left: 1.75em;
+	padding-right: 1.75em;
+}
+
+.appliance_btn{
+	background: none;
+	border: none;
+}
+
+#nextpage {
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	text-align: right; 
+	font-size: 1.5em;
+	padding-left: 11.5em;
+}
+
+#arrow {
+	margin-right: 55em;
+	margin-left: 1em;
+	padding-left: 1.25em;
+
+}
+
+.bottomrow {
+	margin-top: 4em;
+	margin-right: 0.5em;
+	margin-bottom: 1em;
+}
