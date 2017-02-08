@@ -46,7 +46,10 @@ body {
 	color: white;
 	text-align: right; 
 	font-size: 1.5em;
-	padding-left: 11.5em;
+	margin-left: 11em;
+	background-color: #738494;
+	padding: 0.25em;
+	border-color: white;
 }
 
 #arrow {
