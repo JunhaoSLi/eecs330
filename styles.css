@@ -2,7 +2,7 @@ body {
 	background-color: #738494;
 }
 
-/* get rid of all built-in button graphics and add fancy button stuff  */
+/* button styling: get rid of all built-in button graphics and add some stuff to our buttons  */
 
 button {
 	background: none;
