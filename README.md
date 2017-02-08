@@ -1,4 +1,3 @@
-# eecs330
-Project for EECS 330 course, Winter 2017
+# Website for for EECS 330 course, Winter 2017 (Team 水)
 
-picker is an AWFUL class name, someone please think of a better word than I can
+IMPORTANT picker is an AWFUL class name, someone please think of a better word than I can
