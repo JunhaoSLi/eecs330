@@ -3,6 +3,8 @@
 	<head>
 		<title>WaterTracker</title>
 		<link rel="stylesheet" href="styles.css">
+		<script type="text/javascript" src="jquery.js" defer></script>
+		<script type="text/javascript" src="script.js" defer></script>
 	</head>
 	
 	<body>
@@ -17,10 +19,12 @@
 		</div>
 
 		<div class="row2">
-			<button><img src="appliances/toilet.png" class="app_pic"></button>
-			<div id="toilet_popup"></div>
-			<button><img src="appliances/shower.png" class="app_pic"></button>
-			<button class="app_btn"><img src="appliances/blank.png" class="app_pic"></button>
+			<button class="app_btn" id="toilet_btn"><img src="appliances/toilet.png" class="app_pic"></button>
+			<div class="app_prompt" id="toilet_prompt">TOILET</div>
+			<button class="app_btn" id="shower_btn"><img src="appliances/shower.png" class="app_pic"></button>
+			<div class="app_prompt" id="shower_prompt"></div>
+			<button class="app_btn" id="other_btn"><img src="appliances/blank.png" class="app_pic"></button>
+			<div class="app_prompt" id="other_prompt"></div>
 		</div>
 		
 		<div class="bottomrow">

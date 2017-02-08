@@ -2,6 +2,25 @@ body {
 	background-color: #738494;
 }
 
+/* get rid of all built-in button graphics and add fancy button stuff  */
+
+button {
+	background: none;
+	border: none;
+	margin: 0rem 1rem;
+	padding: 0;
+	cursor: pointer;
+}
+
+button:focus {
+	outline: 0;
+}
+
+
+/*********/
+/* Title */
+/*********/
+
 #title {
 	text-align: center;
 	font-family: 'Montserrat', sans-serif;
@@ -12,21 +31,19 @@ body {
 	margin-bottom: 2.2rem;
 }
 
+/*********************/
+/* Appliance buttons */
+/*********************/
+
 .row1 {
 	text-align: center;
+	vertical-align: top;
 	margin-top: 0.2rem;
 }
 
-button {
-	background: none;
-	border: none;
-	margin: 0em 2em;
-	padding: 0;
-	cursor: pointer;
-}
-
-button:focus {
-	outline: 0;
+.row2 {
+	text-align: center;
+	margin-top: 2.8rem;
 }
 
 .app_pic {
@@ -34,25 +51,19 @@ button:focus {
 	height: 13.75rem;
 }
 
-#toilet_popup {
+.app_prompt {
 	display: none;
+	background: lightgrey;
+	vertical-align: top;
+	width: 21rem;
+	height: 13.75rem;
+	margin: 0rem 1rem;
 }
 
 
-#nextpage {
-	font-family: 'Montserrat', sans-serif;
-	color: white;
-	text-align: right; 
-	font-size: 1.5em;
-	float: right;
-	padding: 0.25em;
-	border-color: white;
-}
-
-.row2 {
-	text-align: center;
-	margin-top: 2.8rem;
-}
+/**************************************************/
+/* Bottom row containing Arrow and 'START LOGGING'*/
+/**************************************************/
 
 .bottomrow {
 	margin-top: 3em;
@@ -64,4 +75,14 @@ button:focus {
 	width: 4.5em;
 	margin-left: 1em;
 	padding-left: 1.25em;
+}
+
+#nextpage {
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	text-align: right; 
+	font-size: 1.5em;
+	float: right;
+	padding: 0.25em;
+	border-color: white;
 }
