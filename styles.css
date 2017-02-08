@@ -44,8 +44,7 @@ button:focus {
 	color: white;
 	text-align: right; 
 	font-size: 1.5em;
-	margin-left: 11em;
-	background-color: #738494;
+	float: right;
 	padding: 0.25em;
 	border-color: white;
 }
@@ -65,12 +64,4 @@ button:focus {
 	width: 4.5em;
 	margin-left: 1em;
 	padding-left: 1.25em;
-}
-
-#nextpage {
-	font-family: 'Montserrat', sans-serif;
-	font-size: 2em;
-	color: white;
-	margin-right:  0.75em;
-	float: right;
 }
