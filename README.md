@@ -1,3 +1,6 @@
 # Website for for EECS 330 course, Winter 2017 (Team 水)
 
-IMPORTANT: picker is an AWFUL class name, someone please think of a better word than I can
+Next steps:
+Add prompt divs and functionality to row 1 of the appliance buttons
+Style the prompt divs
+Add bar that shows current added appliances
