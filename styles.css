@@ -38,7 +38,7 @@ button:focus {
 	display: none;
 }
 
-<<<<<<< HEAD
+
 #nextpage {
 	font-family: 'Montserrat', sans-serif;
 	color: white;
@@ -48,7 +48,7 @@ button:focus {
 	background-color: #738494;
 	padding: 0.25em;
 	border-color: white;
-=======
+
 .row2 {
 	text-align: center;
 	margin-top: 2.8rem;
@@ -57,7 +57,7 @@ button:focus {
 .bottomrow {
 	margin-top: 3em;
 	margin-bottom: 1em;
->>>>>>> origin/master
+
 }
 
 #arrow {
