@@ -1,15 +1,15 @@
+body {
+	background-color: #738494;
+}
+
 #title {
 	text-align: center;
 	font-family: 'Montserrat', sans-serif;
-	font-size: 4.8rem;
+	font-size: 4.4rem;
 	font-weight: 400;
 	color: white;
-	margin-top: .6em;
-	margin-bottom: .5em;
-}
-
-body {
-	background-color: #738494;
+	margin-top: 2.5rem;
+	margin-bottom: 2.2rem;
 }
 
 .row1 {
@@ -17,30 +17,28 @@ body {
 	margin-top: 0.2rem;
 }
 
-.r1 {
-	width: 25rem;
-	height: auto;
-	padding-left: 1.75em;
-	padding-right: 1.75em;
-}
-
-.row2 {
-	text-align: center;
-	margin-top: 2.8rem;
-}
-
-.r2 {
-	width: 25rem;
-	height: auto;
-	padding-left: 1.75em;
-	padding-right: 1.75em;
-}
-
-.appliance_btn{
+button {
 	background: none;
 	border: none;
+	margin: 0em 2em;
+	padding: 0;
+	cursor: pointer;
 }
 
+button:focus {
+	outline: 0;
+}
+
+.app_pic {
+	width: 21rem;
+	height: 13.75rem;
+}
+
+#toilet_popup {
+	display: none;
+}
+
+<<<<<<< HEAD
 #nextpage {
 	font-family: 'Montserrat', sans-serif;
 	color: white;
@@ -50,17 +48,28 @@ body {
 	background-color: #738494;
 	padding: 0.25em;
 	border-color: white;
-}
-
-#arrow {
-	margin-right: 55em;
-	margin-left: 1em;
-	padding-left: 1.25em;
-
+=======
+.row2 {
+	text-align: center;
+	margin-top: 2.8rem;
 }
 
 .bottomrow {
-	margin-top: 4em;
-	margin-right: 0.5em;
+	margin-top: 3em;
 	margin-bottom: 1em;
+>>>>>>> origin/master
+}
+
+#arrow {
+	width: 4.5em;
+	margin-left: 1em;
+	padding-left: 1.25em;
+}
+
+#nextpage {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2em;
+	color: white;
+	margin-right:  0.75em;
+	float: right;
 }
