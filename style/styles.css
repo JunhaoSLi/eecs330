@@ -78,8 +78,8 @@ button:focus {
 	display: none;
 	background: #7ABEFF;
 	vertical-align: top;
-	width: 21rem;
-	height: 13.75rem;
+	width: 20rem;
+	height: 15rem;
 	margin: 0rem 1rem;	
 	z-index: 999;
 	position: absolute;
@@ -114,7 +114,8 @@ button:focus {
 
 .prompt_pic {
     width: 6em;
-    margin: 0em 0.5em;
+    height: 6em;
+    margin: 0.25em;
 }
 
 .ok {
@@ -161,3 +162,5 @@ button:focus {
 	padding: 0.25em;
 	border-color: white;
 }
+
+/*____*/
