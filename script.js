@@ -6,8 +6,8 @@ var open_prompt = function(app) {
 	// set the global open app to the newly clicked app
 	chosen_app = app;
 	// hide the button and show the prompt
-	$('#' + app + '_btn').hide();
-	$('#' + app + '_prompt').css('display','inline-block');
+	$('#' + app + '_btn').css('visibility', 'hidden');
+	$('#' + app + '_prompt').css('display', 'inline-block');
 
 	// turn off pointer cursor for all app buttons
 	$('.app_btn').css('cursor','auto');
@@ -15,7 +15,7 @@ var open_prompt = function(app) {
 
 var close_prompt = function() {
 	// hide the open prompt and show the button again
-	$('#' + chosen_app + '_btn').show();
+	$('#' + chosen_app + '_btn').css('visibility', 'visible');
 	$('#' + chosen_app + '_prompt').hide();
 
 	// turn the pointer cursor on again
