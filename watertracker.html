@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>WaterTracker</title>
+		<title>Water Usage Tracker</title>
 		<link rel="stylesheet" href="styles.css">
 		<script type="text/javascript" src="jquery.js" defer></script>
 		<script type="text/javascript" src="script.js" defer></script>
@@ -20,14 +20,14 @@
 				</div>
 			</div>
 			<button class="app_btn" id="wm_btn"><img src="appliances/washingmachine.png" class="app_pic"></button>
-			<div class="app_prompt" id="wm_prompt"></div>
+			<div class="app_prompt" id="wm_prompt">Toilet Asset</div>
 			<button class="app_btn" id="dw_btn"><img src="appliances/dishwasher.png" class="app_pic"></button>
 			<div class="app_prompt" id="dw_prompt"></div>
 		</div>
 
 		<div class="row2">
 			<button class="app_btn" id="toilet_btn"><img src="appliances/toilet.png" class="app_pic"></button>
-			<div class="app_prompt" id="toilet_prompt">TOILET</div>
+			<div class="app_prompt" id="toilet_prompt"></div>
 			<button class="app_btn" id="shower_btn"><img src="appliances/shower.png" class="app_pic"></button>
 			<div class="app_prompt" id="shower_prompt"></div>
 			<button class="app_btn" id="other_btn"><img src="appliances/blank.png" class="app_pic"></button>
@@ -38,5 +38,6 @@
 			<button><img src="icons/back.png" id="arrow"></button>
 			<button id="nextpage">START LOGGING</button>
 		</div>
+		<div id="overlay"></div>
 	</body>
 </html>

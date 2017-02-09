@@ -2,6 +2,18 @@ body {
 	background-color: #738494;
 }
 
+#overlay{
+	opacity:    0; 
+ 	background: #000; 
+ 	width:      100%;
+  	height:     100%; 
+  	z-index:    10;
+  	top:        0; 
+  	left:       0; 
+  	position:   fixed;
+  	pointer-events: none; 
+}
+
 /* button styling: get rid of all built-in button graphics and add some stuff to our buttons  */
 
 button {
@@ -46,6 +58,10 @@ button:focus {
 	margin-top: 2.8rem;
 }
 
+.app_btn{
+	position: relative;
+}
+
 .app_pic {
 	width: 21rem;
 	height: 13.75rem;
@@ -57,7 +73,11 @@ button:focus {
 	vertical-align: top;
 	width: 21rem;
 	height: 13.75rem;
-	margin: 0rem 1rem;
+	margin: 0rem 1rem;	
+	z-index: 999;
+	position: absolute;
+	top: 50%;
+	left: 50%;
 }
 
 

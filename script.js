@@ -1,10 +1,10 @@
-// variable to hold a string current prompt's appliance, if no prompt is displayed then variable is null
-var chosen_app = null;
+
+var chosen_app = null; // holds currently opened prompt's appliance; defaults to null
+var overlay = $('#overlay'); // holds overlay when prompt is opened
 
 var open_prompt = function(app) {
 	// set the global open app to the newly clicked app
 	chosen_app = app;
-
 	// hide the button and show the prompt
 	$('#' + app + '_btn').hide();
 	$('#' + app + '_prompt').css('display','inline-block');
@@ -27,11 +27,11 @@ var close_prompt = function() {
 
 // once document is loaded...
 $(document).ready(function() {
-
 	// if an app button was clicked and there's no prompt, open the app's prompt
 	$('.app_btn').click(function(){
 		if (chosen_app === null) {
 			open_prompt(this.id.replace('_btn',''));
+			overlay.css('opacity', 0.6);
 		}
 	});
 
@@ -42,6 +42,7 @@ $(document).ready(function() {
   			&& !$(e.target).closest('#' + chosen_app + '_prompt').length
   			&& !$(e.target).closest('#' + chosen_app + '_btn').length) {
 			close_prompt();
+			overlay.css('opacity', 0);
   		}
 	});
 });
