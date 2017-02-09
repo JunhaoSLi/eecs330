@@ -76,19 +76,20 @@ button:focus {
 
 .app_prompt {
 	display: none;
-	background: #7ABEFF;
-	vertical-align: top;
-	width: 20rem;
-	height: 15rem;
-	margin: 0rem 1rem;	
+	background: #AEC8E0;
+	width: 40rem;
+	height: 30rem;
+	margin-top: -15rem;
+	margin-left: -20rem;
+	text-align: center;
 	z-index: 999;
-	position: absolute;
-	top: 40%;
-	left: 38%;
+	position: fixed;
+	top: 50%;
+	left: 50%;
 }
 
 .prompt_title {
-    font-size: 0.75em;
+    font-size: 4em;
     font-weight: 400;
     color: #4B5761;
     margin-top: 0.5em;
@@ -98,7 +99,6 @@ button:focus {
     position: absolute;
     top: 3%;
     right: 5%;
-    font-size: 2em;
     cursor:pointer;
 }
 
@@ -113,6 +113,7 @@ button:focus {
 }
 
 .prompt_pic {
+	font-size: 1.8em;
     width: 6em;
     height: 6em;
     margin: 0.25em;
@@ -124,18 +125,14 @@ button:focus {
     right: 4%;
     margin: 0;
     padding: 0.5em;
-    font-size: 0.75em;
+    font-size: 1em;
     color: #4B5761;
     background-color: #ffffff;
     border-color: white;
 }
 
-#other_prompt p {
-	font-size: 0.7em;
-}
-
-#wm_prompt p {
-	font-size: 0.6em;
+.shadowed {
+	box-shadow: 0em 0em 0.5em;
 }
 
 /**************************************************/

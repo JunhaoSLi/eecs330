@@ -20,6 +20,8 @@ var close_prompt = function() {
 	// hide overlay underneath everything
 	overlay.css('opacity', 0)
 	       .css('z-index', -1);
+
+	$('.prompt_pic').removeClass('shadowed');
 	
 	// set the chosen app to reflect that no prompt is open
 	chosen_app = null;
@@ -54,8 +56,8 @@ $(document).ready(function() {
 
 	// moving box shadow around the pictures
 	$('.prompt_pic').click(function() {
-		$(this).css('box-shadow', '0em 0em 2em');
-		$('.prompt_pic').not(this).css('box-shadow', 'none')
+		$(this).addClass('shadowed');
+		$('.prompt_pic').not(this).removeClass('shadowed');
 	});
 });
 
