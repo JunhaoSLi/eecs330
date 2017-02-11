@@ -27,6 +27,14 @@ var close_prompt = function() {
 	chosen_app = null;
 }
 
+var add_icon = function(){
+	// add an icon to the bottom of the page for the chosen appliance
+	$('#' + chosen_app + '_icon').append('<img class="app_icons" src="icons/' + chosen_app + '_ico.png" alt="test.jpg"/>');
+	$('#' + chosen_app + '_icon').click(function(){
+		//prompt to remove single clicked icon
+	})
+}
+
 // once document is loaded...
 $(document).ready(function() {
 	// if an app button was clicked and there's no prompt, open the app's prompt
@@ -51,6 +59,7 @@ $(document).ready(function() {
 	// if 'OK' button is clicked, close prompt and make new icon appear
 	// icon feature is WIP
 	$('.ok').click(function() {
+		add_icon();
 		close_prompt();
 	});
 

@@ -49,6 +49,10 @@ button:focus {
 /*********************/
 /* Appliance buttons */
 /*********************/
+.app_icons{
+	width: 1.5rem;
+	height: 1.5rem;
+}
 
 .row1 {
 	text-align: center;
