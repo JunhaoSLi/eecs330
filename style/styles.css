@@ -1,6 +1,7 @@
 body {
 	background-color: #738494;
 	font-family: 'Montserrat', sans-serif;
+	vertical-align: center;
 }
 
 h1, p {
@@ -49,18 +50,31 @@ button:focus {
 /*********************/
 /* Appliance buttons */
 /*********************/
+.app_icon_bar{
+	display: inline-block;
+	position: relative;
+	margin: 0 auto;
+	vertical-align: center;
+}
+
 .app_icons{
+
+}
+
+.app_icon{
 	width: 1.5rem;
-	height: 1.5rem;
+	height: 1.75rem;
 }
 
 .row1 {
+	position: relative;
 	text-align: center;
 	vertical-align: top;
 	margin-top: 0.2rem;
 }
 
 .row2 {
+	position: relative;
 	text-align: center;
 	margin-top: 2.8rem;
 }
