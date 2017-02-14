@@ -88,6 +88,29 @@ button:focus {
 	height: 13.75rem;
 }
 
+#faucet:hover {
+	content: url("../appliances/faucet_hover.png");
+}
+
+#washingmachine:hover {
+	content: url("../appliances/washingmachine_hover.png");
+}
+
+#dishwasher:hover {
+	content: url("../appliances/dishwasher_hover.png");
+}
+
+#toilet:hover {
+	content: url("../appliances/toilet3_hover.png");
+}
+
+#shower:hover {
+	content: url("../appliances/shower_hover.png");
+}
+
+#other:hover {
+	content: url("../appliances/blank_hover.png");
+}
 /****************************/
 /* Appliance Pop-up Prompts */
 /****************************/
