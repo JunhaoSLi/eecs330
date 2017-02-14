@@ -1,5 +1,5 @@
 body {
-	background-color: #738494;
+	background-color: #3e3f52;
 	font-family: 'Montserrat', sans-serif;
 }
 
@@ -41,7 +41,7 @@ button:focus {
 	text-align: center;
 	font-size: 4.2rem;
 	font-weight: 400;
-	color: white;
+	color: #b7b7b7;
 	margin-top: 2rem;
 	margin-bottom: 2rem;
 }
@@ -94,7 +94,7 @@ button:focus {
 
 .app_prompt {
 	display: none;
-	background: #AEC8E0;
+	background: #d0d0d0;
 	width: 40rem;
 	height: 30rem;
 	margin-top: -15rem;
@@ -109,7 +109,7 @@ button:focus {
 .prompt_title {
     font-size: 4em;
     font-weight: 400;
-    color: #4B5761;
+    color: #1c1f47;
     margin-top: 0.5em;
 }
 
@@ -173,7 +173,7 @@ button:focus {
 }
 
 #nextpage {
-	color: white;
+	color: #b7b7b7;
 	text-align: right; 
 	font-size: 1.5em;
 	float: right;

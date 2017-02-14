@@ -1,0 +1,147 @@
+#title {
+	text-align: center;
+	font-size: 4.8rem;
+	font-weight: 400;
+	color: #1c1f47;
+	margin-top: .6em;
+	margin-bottom: .3em;
+}
+
+body {
+	background-color: #e3e3e3;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.app1 {
+	background-color: #d0d0d0;
+	width: 35em;
+	height: 10.15em;
+	margin-left: 9em;
+	position: relative; 
+	margin-top: 2em;
+	float: left;
+}
+
+.app2 {
+	background-color: #d0d0d0;
+	width: 35em;
+	height: 10.15em;
+	margin-right: 9em;
+	position: relative; 
+	margin-top: 2em;
+	float: right;
+}
+
+
+.type {
+	background-color: #b7b7b7;
+	width: 5.5em;
+	height: 4.05em;
+	color: #1c1f47;
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+	font-size: 2.5em;
+	font-weight: 500;
+}
+
+#dwasher {
+	font-size: 1.75em;
+	width: 7.85em;
+	height: 5.8em;
+}
+
+#toilet {
+	font-size: 1.75em;
+	background-color: #3e3f52;
+	color: #d0d0d0;
+	text-align: center;
+	width: 12.15em;
+	padding-top: 0.8em;
+	padding-bottom: 0.6em;
+	display: inline-block;
+	margin-left: 7.85em;
+	position: absolute;
+	top: 0;
+	height: 1.6em;
+}
+
+.usage {
+	font-size: 2em;
+	background-color: #3e3f52;
+	color: #d0d0d0;
+	width: 10.61em;
+	text-align: center;
+	padding-top: 0.7em;
+	padding-bottom: 0.7em;
+	display: inline-block;
+	margin-left: 6.88em;
+	position: absolute;
+	top: 0;
+	
+}
+
+.plus {
+	font-size: 2em;
+	color: #1c1f47;
+	background-color: #b7b7b7;
+	width: 2em;
+	text-align: center;
+	position: absolute;
+	right: 0;
+	top: 52%;
+	transition-duration: 0.4s;
+    cursor: pointer;
+	
+}
+.minus {
+	font-size: 2em;
+	color: #1c1f47;
+	background-color: #b7b7b7;
+	width: 2em;
+	text-align: center;
+	position: absolute;
+	right: 0;
+	top: 75%;
+	transition-duration: 0.4s;
+    cursor: pointer;
+	
+}
+
+.num {
+	font-size: 3.5em;
+	position: absolute;
+	right: 15%;
+	top: 55%;
+}
+
+.plus:hover, .minus:hover {
+	background-color: #3F3C55;
+	color: #d0d0d0;
+}
+
+#nextpage:hover {
+	background-color: #b7b7b7;
+	color: #3e3f52;
+}
+
+#nextpage {
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	text-align: right; 
+	font-size: 1.5em;
+	float: right;
+	background-color: #3e3f52;
+	padding: 0.25em;
+	border-color: white;
+	margin-top: 2em;
+	margin-right: 1em;
+}
+
+
+
+.bottomrow {
+	margin-top: 4em;
+	margin-right: 0.5em;
+	margin-bottom: 1em;
+}
