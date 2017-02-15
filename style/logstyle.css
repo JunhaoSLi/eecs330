@@ -17,8 +17,8 @@ body {
 	width: 35em;
 	height: 10.15em;
 	margin-left: 9em;
-	position: relative; 
 	margin-top: 2em;
+	position: relative; 
 	float: left;
 }
 
@@ -27,8 +27,8 @@ body {
 	width: 35em;
 	height: 10.15em;
 	margin-right: 9em;
-	position: relative; 
 	margin-top: 2em;
+	position: relative;
 	float: right;
 }
 
@@ -78,7 +78,6 @@ body {
 	margin-left: 6.88em;
 	position: absolute;
 	top: 0;
-	
 }
 
 .plus {
@@ -92,7 +91,7 @@ body {
 	top: 52%;
 	transition-duration: 0.4s;
     cursor: pointer;
-	
+	z-index: 1
 }
 .minus {
 	font-size: 2em;
@@ -105,7 +104,7 @@ body {
 	top: 75%;
 	transition-duration: 0.4s;
     cursor: pointer;
-	
+	z-index: 1;
 }
 
 .num {
@@ -113,6 +112,17 @@ body {
 	position: absolute;
 	right: 15%;
 	top: 55%;
+}
+
+.num_form {
+	font-size: 3.5em;
+	height: 1.37em;
+	width: 4.63em;
+	text-align: right;
+	padding-right: 1.4em;
+	position: absolute;
+	right: 0;
+	bottom: 0;
 }
 
 .plus:hover, .minus:hover {
