@@ -30,7 +30,7 @@ var close_prompt = function() {
 var add_icon = function(){
 	// add an icon to the bottom of the page for the chosen appliance
 	//$('#' + chosen_app + '_icon').append('<img class="app_icon" src="icons/' + chosen_app + '_ico.png" alt="test.jpg"/>'); // places icon at the bottom of the page
-	$('.app_icons').append('<img class="app_icon" id="' + chosen_app + '_icon" src="icons/' + chosen_app + '_ico.png" alt="test.jpg"/>'); //places icon at the bottom of the page
+	$('.app_icons').append('<button><img class="app_icon" id="' + chosen_app + '_icon" src="icons/' + chosen_app + '_ico.png" alt="test.jpg"/></button>'); //places icon at the bottom of the page
 	
 	// open a prompt asking if they want to remove (all?) appliances of a certain type on click
 	/*$('#' + chosen_app + '_icon').click(function(){

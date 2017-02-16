@@ -49,15 +49,10 @@ button:focus {
 /*********************/
 /* Appliance buttons */
 /*********************/
-.app_icon_bar{
+.app_icons{
 	display: block;
-	position: relative;
 	text-align: center;
 	height: 1.75rem;
-}
-
-.app_icons{
-	display: inline-block;
 }
 
 .app_icon{
