@@ -12,6 +12,10 @@ body {
 	font-family: 'Montserrat', sans-serif;
 }
 
+button:focus {
+	outline: 0;
+}
+
 .app1 {
 	background-color: #d0d0d0;
 	width: 35em;
@@ -38,17 +42,22 @@ body {
 	width: 2em;
 	top: 5%;
 	left: -8%;
+	z-index: 1;
+}
+
+.hidden {
+	opacity: 0;
 }
 
 .info-box{
-	display:none;
+	display: none;
 	background-color: white;
 	border: 0.1em solid black;
 	position: absolute;
 	top: 5%;
 	left: -8%;
 	width: 12em;
-	opacity: 0.6;
+	opacity: 0.9;
 }
 
 .type {
@@ -165,8 +174,6 @@ body {
 	margin-top: 2em;
 	margin-right: 1em;
 }
-
-
 
 .bottomrow {
 	margin-top: 4em;

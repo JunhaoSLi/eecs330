@@ -191,12 +191,19 @@ button:focus {
 }
 
 #nextpage {
-	color: #b7b7b7;
-	text-align: right; 
+	background-color: #b7b7b7;
+	color: #3e3f52;
 	font-size: 1.5em;
-	float: right;
 	padding: 0.25em;
+	margin-right:0.25em;
+	text-align: right; 
 	border-color: white;
+	float: right;
+	text-decoration: none;
 }
 
+#nextpage:hover {
+	background-color: white;
+	color: #8c9aaf;
+}
 /*____*/

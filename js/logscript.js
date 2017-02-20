@@ -70,7 +70,11 @@ $(document).ready(function() {
 	});
 
 	$('.info').hover(
-       function(){ $(this).siblings('.info-box').show() },
-       function(){ $(this).siblings('.info-box').hide() }
-	)
+		function(){ 
+			$(this).toggleClass('hidden')
+			$(this).siblings('.info-box').show() 
+		}, function(){ 
+			$(this).toggleClass('hidden')
+			$(this).siblings('.info-box').hide() 
+    });
 });
