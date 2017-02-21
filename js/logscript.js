@@ -7,6 +7,7 @@ $(document).ready(function() {
 	num_input.val(0);
 	time_input.val('0:00');
 
+	// plus button click
 	plus.click(function() {
 		if ($(this).siblings('.num').length > 0) {
 			var input = $(this).siblings('.num');
@@ -22,6 +23,7 @@ $(document).ready(function() {
 		}
 	});
 
+	// minus button click
 	minus.click(function() {
 		if ($(this).siblings('.num').length > 0) {
 			var input = $(this).siblings('.num');
@@ -41,6 +43,7 @@ $(document).ready(function() {
 		}
 	});
 
+	// num input restrictions
 	num_input.keypress(function(e) {
 		var theEvent = e || window.event;
 		var key = theEvent.keyCode || theEvent.which;
@@ -52,6 +55,7 @@ $(document).ready(function() {
 		}
 	});
 
+	// time input restrictions
 	time_input.keypress(function(e) {
 		var theEvent = e || window.event;
 		var key = theEvent.keyCode || theEvent.which;
@@ -69,6 +73,7 @@ $(document).ready(function() {
 		}
 	});
 
+	// info box pop up on hover
 	$('.info').hover(
 		function(){ 
 			$(this).toggleClass('hidden')
