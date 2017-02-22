@@ -12,28 +12,61 @@ body{
 	margin-bottom: .3em;
 }
 
-/*Information box properties*/
+/*Calendar and Appliances box properties*/
+#info_box_container{
+	text-align: center;
+	vertical-align: text-top;
+}
+
 .info_box{
-	position: absolute;
-}
-
-#graphs{
 	display: inline-block;
-	margin: auto auto auto -25em;
-	left: 50%;
-}
-
-#graph_img{
-	/*height: 25em;*/
-	width: 50em;
+	border: 5px solid black; /*placeholder until we have elements sorted*/
+	margin: 5px auto;
 }
 
 #calendar{
-
-	width: 5em;
-	height: 5em;
+	margin: auto;
+	width: 22em;
+	height: 15em;
 }
 
 #appliance_graphs{
+	margin: auto;
+	width: 22em;
+	height: 15em;
+}
 
+/*Bottom Row*/
+#bottomrow{
+	margin-top: 4em;
+	margin-right: 0.5em;
+	margin-bottom: 1em;
+}
+
+/*Graph Properties*/
+#graph_container{
+	text-align: center;
+}
+
+#graphs{
+	display: block;
+	margin: auto;
+}
+
+#graph_img{
+	height: 25em;
+	width: 50em;
+}
+
+#nextpage {
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	text-align: right; 
+	font-size: 1.5em;
+	float: right;
+	background-color: #3e3f52;
+	padding: 0.25em;
+	border-color: white;
+	margin-top: 2em;
+	margin-right: 1em;
 }
