@@ -1,4 +1,4 @@
-# Website for for EECS 330 course, Winter 2017 (Team 水)
+# Website for EECS 330 course, Winter 2017 (Team 水)
 
 Next steps:
 

@@ -22,7 +22,7 @@ button:focus {
 	height: 10.15em;
 	margin-left: 9em;
 	margin-top: 2em;
-	position: relative; 
+	position: relative;
 	float: left;
 }
 
@@ -58,6 +58,7 @@ button:focus {
 	left: -8%;
 	width: 12em;
 	opacity: 0.9;
+	padding: 0.25em;
 }
 
 .type {
@@ -172,7 +173,7 @@ button:focus {
 	margin: 0;
 	position: absolute;
 	right: 2.45em;
-	bottom: 0;	
+	bottom: 0;
 	border: 0.012em #a4abb5;
 	border-style: solid none;
 	z-index: 2;
@@ -186,7 +187,7 @@ button:focus {
 	padding-right: 1.4em;
 	position: absolute;
 	right: 0;
-	bottom: 0;	
+	bottom: 0;
 }
 
 .plus:hover, .minus:hover {
@@ -202,7 +203,7 @@ button:focus {
 #nextpage {
 	font-family: 'Montserrat', sans-serif;
 	color: white;
-	text-align: right; 
+	text-align: right;
 	font-size: 1.5em;
 	float: right;
 	background-color: #3e3f52;
