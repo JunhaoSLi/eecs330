@@ -6,18 +6,18 @@
 		<script type="text/javascript" src="js/jquery.js" defer></script>
 		<script type="text/javascript" src="js/logscript.js" defer></script>
 	</head>
-	
+
 	<body>
 		<h1>
 			<p id="title">LOG WATER USAGE</p>
 		</h1>
-		
-		
-		<div class="row">					
+
+
+		<div class="row">
 			<div class="app1" id="left">
 
 				<div class="type">FAUCET</div>
-				<div class="usage">USAGE TIME</div>	
+				<div class="usage">USAGE TIME</div>
 				<div class="plus">&plus;</div>
 				<div class="minus">&minus;</div>
 				<img class="info" src="icons/info.png"/>
@@ -31,7 +31,7 @@
 			<div class="app2" id="right">
 
 				<div class="type">WASHING MACHINE</div>
-				<div class="usage">NUMBER OF USES</div>	
+				<div class="usage">NUMBER OF USES</div>
 				<div class="plus">&plus;</div>
 				<div class="minus">&minus;</div>
 				<input class="input-box num" maxlength="8"></input>
@@ -39,13 +39,13 @@
 				<div class="info-box">Enter the number of cycles your washing machine has ran in the past 24 hours</div>
 
 			</div>
-		</div>		
+		</div>
 
-		<div>
+		<div class="row">
 			<div class="app1">
 
 				<div class="type" id="dwasher">DISHWASHER</div>
-				<div class="usage">NUMBER OF USES</div>	
+				<div class="usage">NUMBER OF USES</div>
 				<div class="plus">&plus;</div>
 				<div class="minus">&minus;</div>
 				<input class="input-box num" maxlength="8"></input>
@@ -57,7 +57,7 @@
 			<div class="app2">
 
 				<div class="type">TOILET</div>
-				<div id="toilet">NUMBER OF FLUSHES</div>	
+				<div id="toilet">NUMBER OF FLUSHES</div>
 				<div class="plus">&plus;</div>
 				<div class="minus">&minus;</div>
 				<input class="input-box num" maxlength="8"></input>
@@ -65,13 +65,13 @@
 				<div class="info-box">Enter the number of times you have flushed your toilet in the past 24 hours</div>
 
 			</div>
-		</div>	
-		
-		<div>	
+		</div>
+
+		<div>
 			<div class="app1">
 
 				<div class="type">SHOWER</div>
-				<div class="usage">USAGE TIME</div>	
+				<div class="usage">USAGE TIME</div>
 				<div class="plus">&plus;</div>
 				<div class="minus">&minus;</div>
 				<input class="input-box min" maxlength="5"></input>
@@ -85,7 +85,7 @@
 			<div class="app2">
 
 				<div class="type">OTHER</div>
-				<div class="usage">USAGE TIME</div>	
+				<div class="usage">USAGE TIME</div>
 				<div class="plus">&plus;</div>
 				<div class="minus">&minus;</div>
 				<input class="input-box min" maxlength="5"></input>
@@ -96,9 +96,10 @@
 
 			</div>
 		</div>
-		
+
 		<div class="bottomrow">
-			<button id="nextpage">WATER USAGE DATA</button>
+			<a href="Appliances.html"><img src="icons/back.png" id="arrow"></a>
+			<a id="nextpage" href="datapresent.html">WATER USAGE DATA</a>
 		</div>
 	</body>
 </html>

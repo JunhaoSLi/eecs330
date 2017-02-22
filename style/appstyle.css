@@ -8,14 +8,14 @@ h1, p {
 }
 
 #overlay{
-	opacity:    0; 
- 	background: #000; 
+	opacity:    0;
+ 	background: #000;
  	width:      100%;
-  	height:     100%; 
+  	height:     100%;
   	z-index:    -1;
-  	top:        0; 
-  	left:       0; 
-  	position:   fixed; 
+  	top:        0;
+  	left:       0;
+  	position:   fixed;
 }
 
 /* button styling: get rid of all built-in button graphics and add some stuff to our buttons  */
@@ -196,7 +196,7 @@ button:focus {
 	font-size: 1.5em;
 	padding: 0.25em;
 	margin-right:0.25em;
-	text-align: right; 
+	text-align: right;
 	border-color: white;
 	float: right;
 	text-decoration: none;
