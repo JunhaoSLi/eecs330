@@ -1,0 +1,39 @@
+body{
+	background-color: lightgrey;
+}
+
+/*Text Elements*/
+#title {
+	text-align: center;
+	font-size: 4.8rem;
+	font-weight: 400;
+	color: #1c1f47;
+	margin-top: .6em;
+	margin-bottom: .3em;
+}
+
+/*Information box properties*/
+.info_box{
+	position: absolute;
+}
+
+#graphs{
+	display: inline-block;
+	margin: auto auto auto -25em;
+	left: 50%;
+}
+
+#graph_img{
+	/*height: 25em;*/
+	width: 50em;
+}
+
+#calendar{
+
+	width: 5em;
+	height: 5em;
+}
+
+#appliance_graphs{
+
+}
