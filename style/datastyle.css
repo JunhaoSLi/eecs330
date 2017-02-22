@@ -1,5 +1,15 @@
 body{
 	background-color: lightgrey;
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1, p {
+	margin: 0;
+}
+
+button {
+	outline: 0;
+    cursor: pointer;
 }
 
 /*Text Elements*/
@@ -8,14 +18,14 @@ body{
 	font-size: 4.8rem;
 	font-weight: 400;
 	color: #1c1f47;
-	margin-top: .6em;
-	margin-bottom: .3em;
+	margin-top: .1em;
+	margin-bottom: .4em;
 }
 
 /*Calendar and Appliances box properties*/
 #info_box_container{
 	text-align: center;
-	vertical-align: text-top;
+	margin-bottom: 2.5em; 
 }
 
 .info_box{
@@ -30,17 +40,12 @@ body{
 	height: 15em;
 }
 
-#appliance_graphs{
+#appliances_graphs{
 	margin: auto;
 	width: 22em;
 	height: 15em;
-}
-
-/*Bottom Row*/
-#bottomrow{
-	margin-top: 4em;
-	margin-right: 0.5em;
-	margin-bottom: 1em;
+	margin-right: 3.5em;
+	vertical-align: top;
 }
 
 /*Graph Properties*/
@@ -50,12 +55,34 @@ body{
 
 #graphs{
 	display: block;
-	margin: auto;
+	margin: 0 auto;
+	padding: 0;
+	box-shadow: 20 2px 40px black;
 }
 
 #graph_img{
+	display: block;		
+	margin: 0 auto;
 	height: 25em;
 	width: 50em;
+}
+
+
+.time_frame {
+	background-color: #9a9fa8;
+	display: inline-block;
+	width: 22em;
+	height: 3em;
+	margin: 2em 0.1em 0.1em;
+	border: none;
+    box-shadow: 0 0 0.1em #888888;
+}
+
+/*Bottom Row*/
+#bottomrow{
+	margin-top: 4em;
+	margin-right: 0.5em;
+	margin-bottom: 1em;
 }
 
 #nextpage {
@@ -69,4 +96,11 @@ body{
 	border-color: white;
 	margin-top: 2em;
 	margin-right: 1em;
+}
+
+#arrow {
+	float: left;
+	font-size: 1.5em; 	
+	margin-top: 2em;
+	margin-left: 1em;
 }
