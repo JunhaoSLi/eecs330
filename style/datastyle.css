@@ -12,6 +12,10 @@ button {
     cursor: pointer;
 }
 
+button:hover{
+	opacity: 0.85;
+}
+
 /*Text Elements*/
 #title {
 	text-align: center;
@@ -49,6 +53,11 @@ button {
 }
 
 /*Graph Properties*/
+#monthly_graph{
+	margin: 0 auto;
+	text-align: center;
+}
+
 #graph_container{
 	text-align: center;
 }
@@ -56,6 +65,7 @@ button {
 #graphs{
 	display: block;
 	margin: 0 auto;
+	height: 25em;
 	padding: 0;
 	box-shadow: 20 2px 40px black;
 }
@@ -64,7 +74,7 @@ button {
 	display: block;		
 	margin: 0 auto;
 	height: 25em;
-	width: 50em;
+	width: 45em;
 }
 
 
@@ -104,3 +114,7 @@ button {
 	margin-top: 2em;
 	margin-left: 1em;
 }
+
+
+
+/*online*/
