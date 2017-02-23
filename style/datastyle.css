@@ -34,22 +34,80 @@ button:hover{
 
 .info_box{
 	display: inline-block;
-	border: 5px solid black; /*placeholder until we have elements sorted*/
 	margin: 5px auto;
 }
 
 #calendar{
 	margin: auto;
-	width: 22em;
+	width: 21em;
 	height: 15em;
+	border: none;
 }
 
-#appliances_graphs{
+#calendar_table {
+	background-color: #CDCEE5;
+	color: #1c1f47;
+	border-collapse: collapse;
+}
+
+#calendar th, #calendar td {
+	height: 2em;
+	width: 3em;
+	border: 0.1em solid #1c1f47;
+}
+
+#calendar td {
+	text-align: right;
+	vertical-align: top;
+}
+
+.active:hover {
+	background-color: #e8ecf2;
+	cursor: pointer;
+}
+
+#calendar_title {
+	background: #1c1f47;
+	color: #DBDCF5;
+}
+
+#week {
+	background-color: #868796;
+}
+
+.greyed {
+	background-color: #DBDCF5;
+	color: #383D8F;
+}
+
+#appliances_graphs {
+	background-color: #CDCEE5;
 	margin: auto;
-	width: 22em;
-	height: 15em;
+	width: 21em;
+	height: 15.2em;
 	margin-right: 3.5em;
 	vertical-align: top;
+	border: 0.1em solid #1c1f47;
+}
+
+#appliance_div_title {
+	width: 100%;
+	padding: 0.5em 0em;
+	background: #1c1f47;
+	color: #DBDCF5;
+}
+
+#appliance_div_body {
+	text-align: left;
+	padding: 0.8em 4.2em;
+}
+
+.app_pic {
+	display: inline-block;
+	padding: 0.3em 0.5em;
+	height: 5em;
+	width: 5em;
+	cursor: pointer;
 }
 
 /*Monthly Graph Properties*/
