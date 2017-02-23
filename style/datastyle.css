@@ -123,7 +123,7 @@ button:hover{
 	padding: 0;
 	box-shadow: 20 2px 40px black;
 }
-#monthgraph_img{
+#graph_img{
 	display: block;		
 	margin: 0 auto;
 	height: 25em;

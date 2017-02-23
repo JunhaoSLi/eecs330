@@ -4,17 +4,17 @@ $(document).ready(function(){
 	//A time frame button is clicked
 	time_frame.click(function(){
 		//Change to respective graphs
-		$("#monthgraph_img").slideUp();
+		$("#graph_img").slideUp();
+		
 		if($(this).html() === "MONTH"){
-			$("#graph_imgs").html = "<img id='monthgraph_img' src='icons/graph_placeholder1.png'>";
-			$(".graph_imgs").html = 'hi';
-			console.log('working?');
+			$("#graph_imgs").html("<img id='graph_img' src='icons/graph_placeholder.png'>");
 		}
 		if($(this).html() === "WEEK"){
+			$("#graph_imgs").html("<img id='graph_img' src='icons/graph_placeholder2.png'>");
 
 		}
 		if($(this).html() === "DAY"){
-			
+			$("#graph_imgs").html("<img id='graph_img' src='icons/graph_placeholder3.png'>");
 		}
 	});
 });
