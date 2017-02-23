@@ -52,14 +52,10 @@ button:hover{
 	vertical-align: top;
 }
 
-/*Graph Properties*/
-#monthly_graph{
-	margin: 0 auto;
-	text-align: center;
-}
-
+/*Monthly Graph Properties*/
 #graph_container{
 	text-align: center;
+	width: 100%;
 }
 
 #graphs{
@@ -69,13 +65,137 @@ button:hover{
 	padding: 0;
 	box-shadow: 20 2px 40px black;
 }
-
-#graph_img{
+#monthgraph_img{
 	display: block;		
 	margin: 0 auto;
 	height: 25em;
 	width: 45em;
 }
+/*
+#monthly_graph{
+	display: block; /* fixes layout wonkiness in FF1.5 
+  	/*position: relative; 
+	margin: 1.1em auto;
+	padding: 0;
+	background: transparent;
+	text-align: center;
+}
+
+#monthly_graph caption{
+	text-align: center;
+	caption-side: top;
+	width: 20em;
+	position: relative;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+#monthly_graph tr, #monthly_graph th, #monthly_graph td { 
+	position: absolute;
+	bottom: 0; 
+	width: 20em; 
+	z-index: 2;
+	margin: 0; 
+	padding: 0;
+	text-align: center;
+}
+
+#monthly_graph td {
+  transition: all .3s ease;
+  
+  &:hover {
+    background-color: desaturate(#85144b, 100);
+    opacity: .9;
+    color: white;
+  }
+}
+
+#monthly_graph thead tr {
+	left: 100%; 
+	top: 50%; 
+	bottom: auto;
+	margin: -2.5em 0 0 5em;
+}
+#monthly_graph thead th {
+	width: 7.5em; 
+	height: auto; 
+	padding: 0.5em 1em;
+}
+
+#monthly_graph thead th.national_average {
+	top: 0; 
+	left: 0; 
+	line-height: 2;
+}
+#monthly_graph thead th.user_average {
+	top: 2.75em; 
+	line-height: 2;
+	left: 0; 
+}
+
+#monthly_graph #jan{
+	left: 5em;
+}
+#monthly_graph #feb{
+	left: 10em;
+}
+#monthly_graph #mar{
+	left: 15em;
+}
+#monthly_graph #apr{
+	left: 20em;
+}
+#monthly_graph #may{
+	left: 25em;
+}
+#monthly_graph #june{
+	left: 30em;
+}
+#monthly_graph #july{
+	left: 35em;
+}
+#monthly_graph #aug{
+	left: 40em;
+}
+#monthly_graph #sept{
+	left: 45em;
+}
+#monthly_graph #oct{
+	left: 50em;
+}
+#monthly_graph #nov{
+	left: 55em;
+}
+#monthly_graph #dec{
+	left: 60em;
+}
+
+#monthly_graph tbody th {
+	bottom: -1.75em; vertical-align: top;
+	font-weight: normal; color: #333;
+}
+#monthly_graph .bar {
+  width: 60px; 
+  border: 1px solid; 
+  border-bottom: none; 
+  color: #000;
+}
+#monthly_graph .bar p {
+  margin: 5px 0 0; 
+  padding: 0;
+  opacity: .4;
+}
+#monthly_graph .nat_bar {
+  left: 13px; 
+  margin-left: 1em;
+  background-color: $color-sent;
+  border-color: transparent;
+}
+#monthly_graph .user_bar {
+	left: 77px; 
+	background-color: $color-paid;
+	border-color: transparent;
+}*/
 
 
 .time_frame {
@@ -87,6 +207,16 @@ button:hover{
 	border: none;
     box-shadow: 0 0 0.1em #888888;
 }
+
+/*#ticks {
+  position: relative; 
+  width: 50em; 
+  height: 50em; 
+  z-index: 1;
+  margin-bottom: -300px;
+  font-size: 10px;
+  font-family: "fira-sans-2", Verdana, sans-serif;
+}*/
 
 /*Bottom Row*/
 #bottomrow{
