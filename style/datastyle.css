@@ -61,6 +61,11 @@ button:hover{
 	vertical-align: top;
 }
 
+.active:hover {
+	background-color: #e8ecf2;
+	cursor: pointer;
+}
+
 #calendar_title {
 	background: #1c1f47;
 	color: #DBDCF5;
@@ -102,6 +107,7 @@ button:hover{
 	padding: 0.3em 0.5em;
 	height: 5em;
 	width: 5em;
+	cursor: pointer;
 }
 
 /*Graph Properties*/
