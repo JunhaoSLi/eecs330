@@ -17,4 +17,25 @@ $(document).ready(function(){
 			$("#graph_imgs").html("<img id='graph_img' src='icons/graph_placeholder3.png'>");
 		}
 	});
+
+	$('.app_pic').click(function(){
+		$('#appliances_graphs').hide();
+		$('#app_graph_wrapper').toggleClass('hidden displayed_inline_block');
+	});
+
+	$('#app_close').click(function(){
+		$('#appliances_graphs').show();
+		$('#app_graph_wrapper').toggleClass('hidden displayed_inline_block');
+	});
+
+	$('.active').click(function(){
+		$('#calendar').hide();
+		$('#calendar_graph_wrapper').toggleClass('hidden displayed_inline_block');
+	});
+
+	$('#calendar_close').click(function(){
+		$('#calendar').show();
+		$('#calendar_graph_wrapper').toggleClass('hidden displayed_inline_block');
+	});
+
 });
