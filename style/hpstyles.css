@@ -1,0 +1,45 @@
+
+body {
+	background-image: url(watertrackerbackground.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#title {
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 4.9rem;
+	font-weight: 400;
+	color: #c5c4cf;
+	margin-top: 3.3em;
+}
+
+#buttons {
+	text-align: center;
+}
+
+
+
+#left, #right {
+	margin-right: 1.5em;
+	margin-top: -1em;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2em;
+	padding-top: .8em;
+	padding-bottom: .8em;
+	padding-left: 1.2em;
+	padding-right: 1.2em;
+	background-color: transparent;
+	cursor: pointer;
+	color: #c5c4cf;
+	border-color: #c5c4cf;
+	border-width: .17em;
+	border-style: solid;
+	text-align: center;
+	text-decoration: none;
+}
+
+
+#left:hover, #right:hover {
+	background-color:rgba(0, 0, 0, 0.2);
+};
