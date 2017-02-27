@@ -38,4 +38,33 @@ $(document).ready(function(){
 		$('#calendar_graph_wrapper').toggleClass('hidden displayed_inline_block');
 	});
 
+	$('#month_btn').click(function(){
+		$('.sorry').addClass('displayed_inline_block');
+		$('.sorry').removeClass('hidden');
+		$('.ill_fix').addClass('hidden');
+		$('.ill_fix').removeClass('displayed_inline_block');
+		$('.this_later').addClass('hidden');
+		$('.this_later').removeClass('displayed_inline_block');
+	});
+
+
+	$('#week_btn').click(function(){
+		console.log('wtf')
+		$('.sorry').addClass('hidden');
+		$('.sorry').removeClass('displayed_inline_block');
+		$('.ill_fix').addClass('displayed_inline_block');
+		$('.ill_fix').removeClass('hidden');
+		$('.this_later').addClass('hidden');
+		$('.this_later').removeClass('displayed_inline_block');
+	});
+
+	$('#day_btn').click(function(){
+		$('.sorry').addClass('hidden');
+		$('.sorry').removeClass('displayed_inline_block');
+		$('.ill_fix').addClass('hidden');
+		$('.ill_fix').removeClass('displayed_inline_block');
+		$('.this_later').addClass('displayed_inline_block');
+		$('.this_later').removeClass('hidden');
+	});
+
 });

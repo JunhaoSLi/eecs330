@@ -172,7 +172,6 @@ button:hover{
 }
 
 #monthly_graph{
-	display: inline-block; 
   	/*position: relative; */
 	margin: 1.1em auto;
 	padding: 0;

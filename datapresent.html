@@ -96,22 +96,11 @@
 			</div>
 		</div>
 
-		<div class="dotstyle dotstyle-fillup">
-			<ul>
-				<li class="current"><a href="#">Home</a></li>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Products</a></li>
-				<li><a href="#">Portfolio</a></li>
-				<li><a href="#">Blog</a></li>
-				<li><a href="#">Contact</a></li>
-			</ul>
-		</div>
-
 		<div id="graph_container">
 
 			<div id="graphs">
 			<!-- 	<div id="graph_imgs"><img id="graph_img" src="icons/graph_placeholder.png"></div> -->
-				<table id="monthly_graph">
+				<table class="displayed_inline_block sorry" id="monthly_graph">
 					<caption>Your Monthly Water Usage</caption>
 					<thead>
 						<tr>
@@ -122,88 +111,164 @@
 					<tbody>
 						<tr class="monthly" id="jan">
 							<th scope="row">January</th>
-							<td class="nat_bar bar" style="height: 12em;"><p>10</p></td>
-							<td class="user_bar bar"><p>20</p></td>
+							<td class="nat_bar bar" style="height: 12em;"><p>38</p></td>
+							<td class="user_bar bar"><p>10</p></td>
 						</tr>
 
 						<tr class="monthly" id="feb">
 							<th scope="row">February</th>
 							<td class="nat_bar bar"><p>10</p></td>
-							<td class="user_bar bar"><p>20</p></td>
+							<td class="user_bar bar"><p>10</p></td>
 						</tr>
 
 						<tr class="monthly" id="mar">
 							<th scope="row">March</th>
 							<td class="nat_bar bar"><p>10</p></td>
-							<td class="user_bar bar"><p>20</p></td>
+							<td class="user_bar bar"><p>10</p></td>
 						</tr>
 
 						<tr class="monthly" id="apr">
 							<th scope="row">April</th>
 							<td class="nat_bar bar"><p>10</p></td>
-							<td class="user_bar bar"><p>20</p></td>
+							<td class="user_bar bar"><p>10</p></td>
 						</tr>
 
 						<tr class="monthly" id="may">
 							<th scope="row">May</th>
 							<td class="nat_bar bar" id="may_bar"><p>10</p></td>
-							<td class="user_bar bar"><p>20</p></td>
+							<td class="user_bar bar"><p>10</p></td>
 						</tr>
 
 						<tr class="monthly" id="june">
 							<th scope="row">June</th>
 							<td class="nat_bar bar"><p>10</p></td>
-							<td class="user_bar bar"><p>20</p></td>
+							<td class="user_bar bar"><p>10</p></td>
 						</tr>
 
 						<tr class="monthly" id="july">
 							<th scope="row">July</th>
 							<td class="nat_bar bar"><p>10</p></td>
-							<td class="user_bar bar"><p>20</p></td>
+							<td class="user_bar bar"><p>10</p></td>
 						</tr>
 
 						<tr class="monthly" id="aug">
 							<th scope="row">August</th>
 							<td class="nat_bar bar"><p>10</p></td>
-							<td class="user_bar bar"><p>20</p></td>
+							<td class="user_bar bar"><p>10</p></td>
 						</tr>
 
 						<tr class="monthly" id="sept">
 							<th scope="row">September</th>
 							<td class="nat_bar bar"><p>10</p></td>
-							<td class="user_bar bar"><p>20</p></td>
+							<td class="user_bar bar"><p>10</p></td>
 						</tr>
 
 						<tr class="monthly" id="oct">
 							<th scope="row">October</th>
 							<td class="nat_bar bar"><p>10</p></td>
-							<td class="user_bar bar"><p>20</p></td>
+							<td class="user_bar bar"><p>10</p></td>
 						</tr>
 
 						<tr class="monthly" id="nov">
 							<th scope="row">November</th>
 							<td class="nat_bar bar"><p>10</p></td>
-							<td class="user_bar bar"><p>20</p></td>
+							<td class="user_bar bar"><p>10</p></td>
 						</tr>
 
 						<tr class="monthly" id="dec">
 							<th scope="row">December</th>
 							<td class="nat_bar bar"><p>10</p></td>
-							<td class="user_bar bar"><p>20</p></td>
+							<td class="user_bar bar"><p>10</p></td>
+						</tr>
+					</tbody>
+				</table>
+
+				<table class="hidden ill_fix" id="monthly_graph">
+					<caption>Your Weekly Water Usage</caption>
+					<thead>
+						<tr>
+							<th class="national_average">National Average</th>
+							<th class="user_average">Your Average</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class="monthly" id="jan">
+							<th scope="row">1/29 - 2/4</th>
+							<td class="nat_bar bar"><p>10</p></td>
+							<td class="user_bar bar"><p>10</p></td>
+						</tr>
+
+						<tr class="monthly" id="feb">
+							<th scope="row">2/5 - 2/11</th>
+							<td class="nat_bar bar" style="height: 4em"><p>17</p></td>
+							<td class="user_bar bar"><p>10</p></td>
+						</tr>
+
+						<tr class="monthly" id="mar">
+							<th scope="row">2/12 - 2/19</th>
+							<td class="nat_bar bar" style="height: 4em"><p>17</p></td>
+							<td class="user_bar bar"><p>10</p></td>
+						</tr>
+
+						<tr class="monthly" id="apr">
+							<th scope="row">2/20 - 2/27</th>
+							<td class="nat_bar bar"><p>10</p></td>
+							<td class="user_bar bar"><p>10</p></td>
+						</tr>
+					</tbody>
+				</table>
+
+				<table class="hidden this_later" id="monthly_graph">
+					<caption>Your Daily Water Usage</caption>
+					<thead>
+						<tr>
+							<th class="national_average">National Average</th>
+							<th class="user_average">Your Average</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class="monthly" id="jan">
+							<th scope="row">2/21</th>
+							<td class="nat_bar bar"><p>10</p></td>
+							<td class="user_bar bar"><p>10</p></td>
+						</tr>
+
+						<tr class="monthly" id="feb">
+							<th scope="row">2/21</th>
+							<td class="nat_bar bar" style="height: 0"><p></p></td>
+							<td class="user_bar bar"><p>10</p></td>
+						</tr>
+
+						<tr class="monthly" id="mar">
+							<th scope="row">2/22</th>
+							<td class="nat_bar bar"><p>10</p></td>
+							<td class="user_bar bar"><p>10</p></td>
+						</tr>
+
+						<tr class="monthly" id="apr">
+							<th scope="row">2/23</th>
+							<td class="nat_bar bar" style="height: 0"><p></p></td>
+							<td class="user_bar bar"><p>10</p></td>
+						</tr>
+
+						<tr class="monthly" id="may">
+							<th scope="row">2/24</th>
+							<td class="nat_bar bar" id="may_bar"><p>10</p></td>
+							<td class="user_bar bar"><p>10</p></td>
 						</tr>
 					</tbody>
 				</table>
 
 				<div id="ticks">
-					<div class="tick" style="height: 59px;"><p>500 Gallons</p></div>
-					<div class="tick" style="height: 59px;"><p>400 Gallons</p></div>
-					<div class="tick" style="height: 59px;"><p>300 Gallons</p></div>
-					<div class="tick" style="height: 59px;"><p>200 Gallons</p></div>
-					<div class="tick" style="height: 59px;"><p>100 Gallons</p></div>
+					<div class="tick" style="height: 59px;"><p>50 Gallons</p></div>
+					<div class="tick" style="height: 59px;"><p>40 Gallons</p></div>
+					<div class="tick" style="height: 59px;"><p>30 Gallons</p></div>
+					<div class="tick" style="height: 59px;"><p>20 Gallons</p></div>
+					<div class="tick" style="height: 59px;"><p>10 Gallons</p></div>
 				</div>
 			</div>
 
-			<button class="time_frame" id="month_btn">MONTH</button>
+			<button class="time_frame" id="month_btn">BY MONTH</button>
 			<button class="time_frame" id="week_btn">WEEK</button>
 			<button class="time_frame" id="day_btn">DAY</button>
 
