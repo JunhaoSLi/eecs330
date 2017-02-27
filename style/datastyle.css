@@ -170,10 +170,10 @@ button:hover{
 	height: 25em;
 	width: 45em;
 }
-/*
+
 #monthly_graph{
-	display: block; /* fixes layout wonkiness in FF1.5 
-  	/*position: relative; 
+	display: inline-block; 
+  	/*position: relative; */
 	margin: 1.1em auto;
 	padding: 0;
 	background: transparent;
@@ -199,7 +199,7 @@ button:hover{
 	text-align: center;
 }
 
-#monthly_graph td {
+/*#monthly_graph td {
   transition: all .3s ease;
   
   &:hover {
@@ -207,7 +207,7 @@ button:hover{
     opacity: .9;
     color: white;
   }
-}
+}*/
 
 #monthly_graph thead tr {
 	left: 100%; 
@@ -233,68 +233,72 @@ button:hover{
 }
 
 #monthly_graph #jan{
-	left: 5em;
+	left: 0em;
 }
 #monthly_graph #feb{
-	left: 10em;
+	left: 5em;
 }
 #monthly_graph #mar{
-	left: 15em;
+	left: 10em;
 }
 #monthly_graph #apr{
-	left: 20em;
+	left: 15em;
 }
 #monthly_graph #may{
-	left: 25em;
+	left: 20em;
 }
 #monthly_graph #june{
-	left: 30em;
+	left: 25em;
 }
 #monthly_graph #july{
-	left: 35em;
+	left: 30em;
 }
 #monthly_graph #aug{
-	left: 40em;
+	left: 35em;
 }
 #monthly_graph #sept{
-	left: 45em;
+	left: 40em;
 }
 #monthly_graph #oct{
-	left: 50em;
+	left: 45em;
 }
 #monthly_graph #nov{
-	left: 55em;
+	left: 50em;
 }
 #monthly_graph #dec{
-	left: 60em;
+	left: 55em;
 }
 
 #monthly_graph tbody th {
-	bottom: -1.75em; vertical-align: top;
+	bottom: -1.75em; 
+	vertical-align: top;
 	font-weight: normal; color: #333;
 }
 #monthly_graph .bar {
-  width: 60px; 
-  border: 1px solid; 
-  border-bottom: none; 
-  color: #000;
+	position: absolute;
+	/*width: 60px; */
+	border: 1px solid; 
+	border-bottom: none; 
+	color: #FFF;
 }
 #monthly_graph .bar p {
-  margin: 5px 0 0; 
-  padding: 0;
-  opacity: .4;
+	margin: 0 0 0.5em 0; 
+	padding: 0;
+	opacity: 0.8;
 }
 #monthly_graph .nat_bar {
-  left: 13px; 
+  left: 7.5em; 
+  width: 1.5em;
   margin-left: 1em;
-  background-color: $color-sent;
+  background-color: cyan;
   border-color: transparent;
 }
 #monthly_graph .user_bar {
-	left: 77px; 
-	background-color: $color-paid;
+	left: 10em; 
+	width: 1.5em;
+	background-color: darkblue;
 	border-color: transparent;
-}*/
+}
 
 
 .time_frame {
@@ -307,15 +311,15 @@ button:hover{
     box-shadow: 0 0 0.1em #888888;
 }
 
-/*#ticks {
-  position: relative; 
-  width: 50em; 
-  height: 50em; 
-  z-index: 1;
-  margin-bottom: -300px;
-  font-size: 10px;
-  font-family: "fira-sans-2", Verdana, sans-serif;
-}*/
+#ticks {
+	position: relative; 
+	width: 10em; 
+	height: 50em; 
+	z-index: 1;
+	margin-bottom: -300px;
+	font-size: 10px;
+	font-family: "fira-sans-2", Verdana, sans-serif;
+}
 
 /*Bottom Row*/
 #bottomrow{
