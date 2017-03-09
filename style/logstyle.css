@@ -17,23 +17,23 @@ button:focus {
 }
 
 .app1 {
+	display: inline-block;
+	background-color: #d0d0d0;
+	width: 35em;
+	height: 10.15em;
+	margin-left: 7em;
+	margin-top: 2em;
+	position: relative;
+}
+
+.app2 {
+	display: inline-block;
 	background-color: #d0d0d0;
 	width: 35em;
 	height: 10.15em;
 	margin-left: 9em;
 	margin-top: 2em;
 	position: relative;
-	float: left;
-}
-
-.app2 {
-	background-color: #d0d0d0;
-	width: 35em;
-	height: 10.15em;
-	margin-right: 9em;
-	margin-top: 2em;
-	position: relative;
-	float: right;
 }
 
 .info {
@@ -42,7 +42,7 @@ button:focus {
 	width: 2em;
 	top: 5%;
 	left: -8%;
-	z-index: 1;
+	z-index: 2;
 }
 
 .hidden {
@@ -209,14 +209,14 @@ button:focus {
 	background-color: #3e3f52;
 	padding: 0.25em;
 	border-color: white;
-	margin-top: 2em;
+	margin-top: 5em;
 	margin-right: 1em;
 	text-decoration: none;
 }
 
 #arrow {
 	font-size: 1.5em;
-	margin-top: 2em;
+	margin-top: 5em;
 	margin-left: 1em;
 	margin-right: 4em;
 }

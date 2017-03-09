@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Water Usage Tracker</title>
+		<link rel="stylesheet" href="style/appstyle.css">
+		<script type="text/javascript" src="js/jquery.js" defer></script>
+		<script type="text/javascript" src="js/appscript.js" defer></script>
+	</head>
+	
+	<body>
+		<h1>
+			<p id="title">ADD AN APPLIANCE</p>
+		</h1>
+
+		<div class="app_prompt" id="faucet_prompt"> 
+			<div class="prompt_title">Faucet Types</div>
+			<div class="prompt_row1">
+				<button class="faucet_optn" id="faucet_option_1"><img class="prompt_pic" src="appliances/faucet1.jpg"></button>
+				<button class="faucet_optn" id="faucet_option_2"><img class="prompt_pic" src="appliances/faucet2.png"></button>
+			</div>
+			<!-- <div class="prompt_row2">
+				<button class="faucet_optn" id="faucet_option_3"><img class="prompt_pic" src="appliances/placeholder.jpg"></button>
+				<button class="faucet_optn" id="faucet_option_4"><img class="prompt_pic" src="appliances/placeholder.jpg"></button>
+			</div> -->
+			<button class="ok"> OK </button>
+		</div>
+
+		<div class="app_prompt" id="wm_prompt">
+			<div class="prompt_title">Washing Machine Types</div>
+			<div class="prompt_row1">
+				<button class="wm_optn" id="wm_option_1"><img class="prompt_pic" src="appliances/washingmachine1.png"></button>
+				<button class="wm_optn" id="wm_option_2"><img class="prompt_pic" src="appliances/washingmachine2.png"></button>
+			</div>
+			<div class="prompt_row2">
+				<!-- <button class="wm_optn" id="wm_option_3"><img class="prompt_pic" src="appliances/washingmachine3.png"></button>
+				<button class="wm_optn" id="wm_option_4"><img class="prompt_pic" src="appliances/washingmachine4.png"></button> -->
+				<button class="ok"> OK </button>
+			</div>
+		</div>
+
+		<div class="app_prompt" id="dw_prompt">
+			<div class="prompt_title">Dish Washer Types</div>
+			<div class="prompt_row1">
+				<button class="dw_optn" id="dw_option_1"><img class="prompt_pic" src="appliances/dishwasher1.png"></button>
+				<button class="dw_optn" id="dw_option_2"><img class="prompt_pic" src="appliances/dishwasher2.png"></button>
+			</div>
+			<div class="prompt_row2">
+				<button class="dw_optn" id="faucet_option_3"><img class="prompt_pic" src="appliances/dishwasher3.png"></button>
+				<button class="dw_optn" id="faucet_option_4"><img class="prompt_pic" src="appliances/dishwasher4.png"></button>
+				<button class="ok"> OK </button>
+			</div>
+		</div>
+
+		<div class="app_prompt" id="toilet_prompt">
+			<div class="prompt_title">Toilet Types</div>
+			<div class="prompt_row1">
+				<button class="toilet_optn" id="faucet_option_1"><img class="prompt_pic" src="appliances/toilet1.png"></button>
+				<button class="toilet_optn" id="faucet_option_2"><img class="prompt_pic" src="appliances/toilet2.png"></button>
+			</div>
+			<div class="prompt_row2">
+				<!-- <button class="faucet_optn" id="faucet_option_3"><img class="prompt_pic" src="appliances/placeholder.jpg"></button>
+				<button class="faucet_optn" id="faucet_option_4"><img class="prompt_pic" src="appliances/placeholder.jpg"></button> -->
+				<button class="ok"> OK </button>
+			</div>
+		</div>
+
+		<div class="app_prompt" id="shower_prompt">
+			<div class="prompt_title">Shower Prompt</div>
+			<div class="prompt_row1">
+				<button class="shower_optn" id="faucet_option_1"><img class="prompt_pic" src="appliances/shower1.png"></button>
+				<button class="shower_optn" id="faucet_option_2"><img class="prompt_pic" src="appliances/shower2.png"></button>
+			</div>
+			<div class="prompt_row2">
+				<!-- <button class="shower_optn" id="faucet_option_3"><img class="prompt_pic" src="appliances/placeholder.jpg"></button>
+				<button class="shower_optn" id="faucet_option_4"><img class="prompt_pic" src="appliances/placeholder.jpg"></button> -->
+				<button class="ok"> OK </button>
+			</div>
+		</div>
+
+		<div class="app_prompt" id="other_prompt">
+			<div class="prompt_title">Misc Type</div>
+			<input type="text" name="diff_appliance" placeholder="Enter Name of Appliance">
+			<button class="ok"> OK </button>
+		</div>
+
+		<div class="row1">
+			<button class="app_btn" id="faucet_btn"><img src="appliances/faucet.png" class="app_pic" id="faucet"></button>
+
+			<button class="app_btn" id="wm_btn"><img src="appliances/washingmachine.png" class="app_pic" id="washingmachine"></button>
+
+			<button class="app_btn" id="dw_btn"><img src="appliances/dishwasher.png" class="app_pic" id="dishwasher"></button>
+		</div>
+		<div class="row2">
+			<button class="app_btn" id="toilet_btn"><img src="appliances/toilet3new.png" class="app_pic" id="toilet"></button>
+
+			<button class="app_btn" id="shower_btn"><img src="appliances/shower.png" class="app_pic" id="shower"></button>
+
+			<button class="app_btn" id="other_btn"><img src="appliances/blank.png" class="app_pic" id="other"></button>
+		</div>
+
+		<div class="app_icons"></div>
+
+		<div class="bottomrow">
+			<a href="index.html"><button><img src="icons/back.png" id="arrow"></button></a>
+			<a id="nextpage" href="waterlogging.html">START LOGGING</a>
+		</div>
+		<div id="overlay"></div>
+	</body>
+</html>

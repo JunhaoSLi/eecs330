@@ -112,6 +112,9 @@ button:hover{
 	cursor: pointer;
 }
 
+#app_close, #calendar_close {
+	cursor: pointer;
+}
 
 /*Graph wrappers and graphs styling*/
 .graph_wrapper {
@@ -341,10 +344,11 @@ button:hover{
 }
 
 #arrow {
-	float: left;
+	position: relative;
 	font-size: 1.5em; 	
 	margin-top: 2em;
 	margin-left: 1em;
+	z-index: 2;
 }
 
 .dotstyle ul {

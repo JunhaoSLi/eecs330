@@ -23,6 +23,22 @@ $(document).ready(function(){
 		$('#app_graph_wrapper').toggleClass('hidden displayed_inline_block');
 	});
 
+	$('#app_pic1').click(function() {
+		$('#appliances_graph').attr("src", "icons/appgraphplaceholder.png");
+	})
+
+	$('#app_pic2').click(function() {
+		$('#appliances_graph').attr("src", "icons/faucet2graph.png");
+	})
+
+	$('#app_pic3').click(function() {
+		$('#appliances_graph').attr("src", "icons/shower1graph.png");
+	})
+
+	$('#app_pic4').click(function() {
+		$('#appliances_graph').attr("src", "icons/toilet1graph.png");
+	})
+
 	$('#app_close').click(function(){
 		$('#appliances_graphs').show();
 		$('#app_graph_wrapper').toggleClass('hidden displayed_inline_block');
